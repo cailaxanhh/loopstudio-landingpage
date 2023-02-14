@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+/*Color*/
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%); 
+  --DarkGray: hsl(0, 0%, 55%); 
+  --VeryDarkGray: hsl(0, 0%, 41%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: josefin-sans;
+  src: url(./assets/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: alata;
+  src: url(./assets/Alata/Alata-Regular.ttf);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .3s ease;
+}
+
+h1,
+h2,
+h3,
+button {
+  font-family: josefin-sans;
+  font-weight: 300;
+}
+
+p,
+a {
+  font-family: alata;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+li{
+  list-style: none;
+}
+
+button a {
+  box-sizing: border-box;
+  padding: 5px 8px 5px 8px;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+button:hover a{
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 1px solid black;
 }
