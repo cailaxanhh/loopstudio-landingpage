@@ -1,38 +1,51 @@
-.header {
-    position: fixed;
-    align-items: center;
-    justify-content: space-between;
-    width:100%;
-    box-sizing: border-box;
-    z-index: 1000;
-    border: none;
-}
-
-
-
 @media only screen and (max-width: 600px) {
-    .logo{
+    .header {
+        position: fixed;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
         box-sizing: border-box;
-        display:block;
-        width:50%;
+        z-index: 1000;
+        border: none;
+        padding: 15px;
+        background: black;
+    }
+
+    .logo {
+        box-sizing: border-box;
+        display: block;
         float: left;
+        z-index: 1000;
+        align-items: center;
     }
 
     .logo img {
         align-items: center;
         box-sizing: border-box;
-        padding: 10px 5px 10px;
+        margin: 15px 10px 15px 10px;
+        width: 75%;
+        display: block;
     }
-    
-    nav {
+
+    .navBar {
         position: absolute;
         height: max-content;
         box-sizing: border-box;
         top: 0;
-        left: 0;
+        left: -500%;
         width: 100%;
         background-color: black;
         z-index: 1000;
+    }
+
+    .activeNav {
+        left: 0;
+    }
+
+    .navBar ul,
+    li {
+        list-style: none;
+        width: fit-content;
     }
 
     .navBar ul {
@@ -50,8 +63,30 @@
         justify-content: center;
     }
 
-    ul, li {
-        list-style: none;
-        width:fit-content;
+    .navItems a {
+        color: white;
     }
+
+    .navItems a:hover {
+        text-decoration-line: underline;
+        text-decoration-style: solid 2px;
+    }
+
+    .closeNav {
+        position: absolute;
+        align-items: center;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .toggleNav {
+        align-items: center;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+
+
+
 }
