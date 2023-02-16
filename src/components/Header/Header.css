@@ -8,7 +8,7 @@
         z-index: 1000;
         border: none;
         padding: 15px;
-        background: black;
+        background: transparent;
     }
 
     .logo {
@@ -22,8 +22,8 @@
     .logo img {
         align-items: center;
         box-sizing: border-box;
-        margin: 15px 10px 15px 10px;
-        width: 75%;
+        margin: 20px 10px;
+        width: 70%;
         display: block;
     }
 

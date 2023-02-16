@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    .landing{
+        background-image: url('../../assets/mobile/image-hero.jpg');
+        background-size: 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+
+    #mycanvas {
+        border: 2px solid white;
+        width: 90%;
+        height: 33%;
+        margin: 60% 5%;
+        box-sizing: border-box;
+        background: none;
+    }
+
+    .landing h1 {
+        margin: 10%;
+        width: 80%;
+        padding: 2%;
+        text-align: left;
+        position: relative;
+        top: -460px;
+        color: white;
+        font-size: 43px;
+    }
+}
