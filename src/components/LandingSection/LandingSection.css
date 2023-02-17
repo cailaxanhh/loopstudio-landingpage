@@ -1,30 +1,27 @@
 @media only screen and (max-width: 600px) {
     .landing{
-        background-image: url('../../assets/mobile/image-hero.jpg');
+        background: url('../../assets/mobile/image-hero.jpg') no-repeat top;
         background-size: 100%;
-        position: absolute;
         width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-        align-items: center;
+        height: 750px;
     }
 
     #mycanvas {
         border: 2px solid white;
-        width: 90%;
-        height: 33%;
-        margin: 60% 5%;
+        width: 82%;
+        height: 220px;
+        margin: 60% 8%;
         box-sizing: border-box;
         background: none;
     }
 
     .landing h1 {
         margin: 10%;
-        width: 80%;
+        width: 70%;
         padding: 2%;
         text-align: left;
         position: relative;
-        top: -460px;
+        top: -475px;
         color: white;
         font-size: 43px;
     }

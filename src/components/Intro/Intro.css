@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    .intro {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8%;
+        align-items: center;
+    }
+
+    #intropic {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .introTxt {
+        margin: 5%;
+        text-align: center;
+    }
+
+    .introTxt h1 {
+        margin: 2%;
+        font-size: 32px;
+        line-height: 110%;
+        font-weight: 320;
+    }
+
+    .introTxt p {
+        color: hsl(0, 0%, 55%);
+        line-height: 150%;
+        padding: 6%;
+    }
+}
